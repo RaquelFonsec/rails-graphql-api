@@ -7,6 +7,8 @@ Certifique-se de ter as seguintes tecnologias instaladas antes de prosseguir:
 Ruby 3.2.2
 Rails 7.1.1
 PostgreSQL
+
+
 Configuração do Projeto
 Para configurar e executar este projeto localmente, siga estas etapas:
 
@@ -14,13 +16,18 @@ Para configurar e executar este projeto localmente, siga estas etapas:
 Clone o repositório
 
 git clone https://github.com/seu-usuario/rails-graphql-api.git
+
+
 cd rails-graphql-api
 
 Instale as dependências
 
 bundle install
 
+
 Configure o banco de dados
+
+
 
 Crie o banco de dados e execute as migrações:
 
@@ -33,12 +40,22 @@ Inicie o servidor  rails server
 O servidor será iniciado em http://localhost:3000.
 
 Utilizando GraphQL
-Este projeto inclui o GraphiQL para facilitar o teste das consultas GraphQL. Para acessá-lo, vá para http://localhost:3000/graphiql.
+
+
+Este projeto inclui o GraphiQL para facilitar o teste das consultas GraphQL.
+
+
+
+
+Para acessá-lo, vá para http://localhost:3000/graphiql.
 
 Exemplos de Consulta GraphQL
 Aqui estão alguns exemplos básicos de como utilizar a API GraphQL:
 
 Consultar todos os blogs
+
+
+
 
 {
   blogs {
@@ -48,6 +65,11 @@ Consultar todos os blogs
     userName
   }
 }
+
+
+
+
+
 
 Consultar um blog específico por ID
 query {
